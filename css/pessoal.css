@@ -1,0 +1,58 @@
+html {
+}
+
+body {
+    /*padding: 10px 200px 10px 200px;*/
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #0075AA;
+    text-decoration: none;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.navbar h1, h2 {
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+}
+
+.navbar ul {
+    min-width: 300px;
+
+}
+
+.navbar-nome {
+    min-width: 300px;
+    float : left;
+}
+
+.navbar a{
+    padding-top: 6px;
+    font-weight: 400;
+}
+
+.navbar h2{
+    padding-top: 6px;
+    font-weight: 400;
+}
